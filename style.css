@@ -1,0 +1,150 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Georgia, serif;
+}
+
+body{
+
+    background:#050505;
+    color:white;
+}
+
+
+#opening{
+
+    position:fixed;
+    width:100%;
+    height:100vh;
+    background:#050505;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    z-index:10;
+
+}
+
+
+.opening-box{
+
+    text-align:center;
+    padding:40px;
+    border:2px solid gold;
+    border-radius:25px;
+    background:rgba(255,255,255,0.08);
+    box-shadow:0 0 30px gold;
+
+}
+
+
+.opening-box h1{
+
+    color:gold;
+    font-size:38px;
+    margin-bottom:20px;
+
+}
+
+
+.opening-box p{
+
+    font-size:18px;
+    margin-bottom:30px;
+
+}
+
+
+
+button{
+
+    padding:15px 35px;
+    border:none;
+    border-radius:30px;
+    background:linear-gradient(45deg,gold,#fff);
+    font-size:18px;
+    font-weight:bold;
+    cursor:pointer;
+
+}
+
+
+
+.hero{
+
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:20px;
+
+}
+
+
+.card,.love-box{
+
+    max-width:600px;
+    padding:35px;
+    text-align:center;
+    border:1px solid gold;
+    border-radius:25px;
+    background:rgba(255,255,255,0.08);
+    box-shadow:0 0 30px gold;
+
+}
+
+
+h1,h2,h3{
+
+    color:gold;
+
+}
+
+
+.card p,
+.love-box p{
+
+    line-height:1.8;
+    font-size:18px;
+
+}
+
+
+
+#kejutan{
+
+    padding:30px;
+    display:block;
+
+}
+
+
+
+.love-box img{
+
+    width:90%;
+    margin-top:25px;
+    border-radius:20px;
+    border:3px solid gold;
+
+}
+
+
+
+@keyframes jatuh{
+
+    from{
+
+        transform:translateY(-20px);
+
+    }
+
+    to{
+
+        transform:translateY(100vh);
+
+        opacity:0;
+
+    }
+
+}
